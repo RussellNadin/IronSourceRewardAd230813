@@ -1,0 +1,321 @@
+[Adaptive Performance] No Provider was configured for use. Make sure you added at least one Provider in the Adaptive Performance Settings.
+0x00007ff7861f3a2d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7861f89d9 (Unity) StackWalker::ShowCallstack
+0x00007ff7871c40e1 (Unity) GetStacktrace
+0x00007ff787885b32 (Unity) DebugStringToFile
+0x00007ff785124e76 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000024ffe34fac3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000024ffe34f9db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000024ffe34f720 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000024ffe34f5e8 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000024ffe34f58b (Mono JIT Code) UnityEngine.AdaptivePerformance.APLog:Debug (string,object[]) (at ./Library/PackageCache/com.unity.adaptiveperformance@4.0.1/Runtime/Core/AdaptiverPerformanceLog.cs:12)
+0x0000024ffe34e813 (Mono JIT Code) UnityEngine.AdaptivePerformance.AdaptivePerformanceManager:Awake () (at ./Library/PackageCache/com.unity.adaptiveperformance@4.0.1/Runtime/Core/AdaptivePerformanceManager.cs:158)
+0x0000025021b190f8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7860f129e (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff78618cd06 (Unity) SerializableManagedRef::CallMethod
+0x00007ff7860d824b (Unity) MonoBehaviour::CallAwake
+0x00007ff7860d6835 (Unity) MonoBehaviour::AddToManager
+0x00007ff7860b2d9f (Unity) ManagedMonoBehaviourRef::RebuildMonoInstanceFromScriptChange
+0x00007ff78618f3eb (Unity) SerializableManagedRef::SetScript
+0x00007ff785d75094 (Unity) SetupScriptForIManagedObjectHost
+0x00007ff785d6da28 (Unity) AddComponentUnchecked
+0x00007ff785d6d427 (Unity) AddComponent
+0x00007ff786012046 (Unity) MonoAddComponentWithType
+0x00007ff78512c497 (Unity) GameObject_CUSTOM_Internal_AddComponentWithType
+0x0000024f7172a50c (Mono JIT Code) (wrapper managed-to-native) UnityEngine.GameObject:Internal_AddComponentWithType (UnityEngine.GameObject,System.Type)
+0x0000024f7172a313 (Mono JIT Code) UnityEngine.GameObject:AddComponent (System.Type)
+0x0000024f7172a13b (Mono JIT Code) UnityEngine.GameObject:AddComponent<T_REF> ()
+0x0000024ffe34de1b (Mono JIT Code) UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSpawner:OnEnable () (at ./Library/PackageCache/com.unity.adaptiveperformance@4.0.1/Runtime/Core/AdaptivePerformanceInit.cs:15)
+0x0000025021b190f8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7860f129e (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff78618cd06 (Unity) SerializableManagedRef::CallMethod
+0x00007ff7860d7411 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff7860e4414 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
+0x00007ff7860ef2f5 (Unity) Scripting::CreateScriptableObjectWithType
+0x00007ff78517226b (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
+0x0000024f6d42d6f5 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+0x0000024f6d42d613 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
+0x0000024f6d42d573 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
+0x0000024ffe34dcd3 (Mono JIT Code) UnityEngine.AdaptivePerformance.AdaptivePerformanceInitializer:Initialize () (at ./Library/PackageCache/com.unity.adaptiveperformance@4.0.1/Runtime/Core/AdaptivePerformanceInit.cs:61)
+0x0000024ffe34db35 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff785d7d5cc (Unity) RuntimeInitializeOnLoadManager::ExecuteInitializeOnLoad
+0x00007ff785d82847 (Unity) RuntimeInitializeOnSceneLoadedBeforeAwake
+0x00007ff785dd7597 (Unity) CallbackArray4<int const ,AwakeFromLoadQueue & __ptr64,enum SceneLoadingMode,bool>::Invoke
+0x00007ff785dd4f72 (Unity) LoadSceneOperation::CompleteAwakeSequence
+0x00007ff785dd5c10 (Unity) LoadSceneOperation::CompletePreloadManagerLoadSceneEditor
+0x00007ff785dd6ece (Unity) LoadSceneOperation::IntegrateMainThread
+0x00007ff785dda4ce (Unity) PreloadManager::UpdatePreloadingSingleStep
+0x00007ff785ddabef (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff78704643d (Unity) EditorSceneManager::RestoreSceneBackups
+0x00007ff786d43cc6 (Unity) PlayerLoopController::EnterPlayMode
+0x00007ff786d540d6 (Unity) PlayerLoopController::SetIsPlaying
+0x00007ff786d57760 (Unity) Application::TickTimer
+0x00007ff7871ca7ba (Unity) MainMessageLoop
+0x00007ff7871cf8c0 (Unity) WinMain
+0x00007ff7885b42fe (Unity) __scrt_common_main_seh
+0x00007ffa659a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffa66a826b1 (ntdll) RtlUserThreadStart
+
+unity-script: OnApplicationPause = False
+0x00007ff7861f3a2d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7861f89d9 (Unity) StackWalker::ShowCallstack
+0x00007ff7871c40e1 (Unity) GetStacktrace
+0x00007ff787885b32 (Unity) DebugStringToFile
+0x00007ff785124e76 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000024ffe34fac3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000024ffe34f9db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000024ffe34f720 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000024ffe34f5e8 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000024ffe367c33 (Mono JIT Code) IronSourceDemoScript:OnApplicationPause (bool) (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/DemoScene/IronSourceDemoScript.cs:135)
+0x0000024ffe367ed6 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___byte (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7860dd5b4 (Unity) MonoBehaviour::HandleNotifications
+0x00007ff785a4ca06 (Unity) GameObject::SendMessageAny
+0x00007ff785d74f72 (Unity) SendMessageToEveryone
+0x00007ff785db5e7f (Unity) PlayerInitState
+0x00007ff785dd5c3a (Unity) LoadSceneOperation::CompletePreloadManagerLoadSceneEditor
+0x00007ff785dd6ece (Unity) LoadSceneOperation::IntegrateMainThread
+0x00007ff785dda4ce (Unity) PreloadManager::UpdatePreloadingSingleStep
+0x00007ff785ddabef (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff78704643d (Unity) EditorSceneManager::RestoreSceneBackups
+0x00007ff786d43cc6 (Unity) PlayerLoopController::EnterPlayMode
+0x00007ff786d540d6 (Unity) PlayerLoopController::SetIsPlaying
+0x00007ff786d57760 (Unity) Application::TickTimer
+0x00007ff7871ca7ba (Unity) MainMessageLoop
+0x00007ff7871cf8c0 (Unity) WinMain
+0x00007ff7885b42fe (Unity) __scrt_common_main_seh
+0x00007ffa659a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffa66a826b1 (ntdll) RtlUserThreadStart
+
+Generated with Unity editor
+0x00007ff7861f3a2d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7861f89d9 (Unity) StackWalker::ShowCallstack
+0x00007ff7871c40e1 (Unity) GetStacktrace
+0x00007ff787885b32 (Unity) DebugStringToFile
+0x00007ff785124e76 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000024ffe34fac3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000024ffe34f9db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000024ffe34f720 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000024ffe34f5e8 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000024ffe36b2a3 (Mono JIT Code) UnsupportedPlatformAgent:.ctor () (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/Scripts/UnsupportedPlatformAgent.cs:10)
+0x0000024ffe36ae2b (Mono JIT Code) IronSource:.ctor () (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/Scripts/IronSource.cs:18)
+0x0000024ffe36ad43 (Mono JIT Code) IronSource:get_Agent () (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/Scripts/IronSource.cs:47)
+0x0000024ffe367c43 (Mono JIT Code) IronSourceDemoScript:OnApplicationPause (bool) (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/DemoScene/IronSourceDemoScript.cs:135)
+0x0000024ffe367ed6 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___byte (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7860dd5b4 (Unity) MonoBehaviour::HandleNotifications
+0x00007ff785a4ca06 (Unity) GameObject::SendMessageAny
+0x00007ff785d74f72 (Unity) SendMessageToEveryone
+0x00007ff785db5e7f (Unity) PlayerInitState
+0x00007ff785dd5c3a (Unity) LoadSceneOperation::CompletePreloadManagerLoadSceneEditor
+0x00007ff785dd6ece (Unity) LoadSceneOperation::IntegrateMainThread
+0x00007ff785dda4ce (Unity) PreloadManager::UpdatePreloadingSingleStep
+0x00007ff785ddabef (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff78704643d (Unity) EditorSceneManager::RestoreSceneBackups
+0x00007ff786d43cc6 (Unity) PlayerLoopController::EnterPlayMode
+0x00007ff786d540d6 (Unity) PlayerLoopController::SetIsPlaying
+0x00007ff786d57760 (Unity) Application::TickTimer
+0x00007ff7871ca7ba (Unity) MainMessageLoop
+0x00007ff7871cf8c0 (Unity) WinMain
+0x00007ff7885b42fe (Unity) __scrt_common_main_seh
+0x00007ffa659a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffa66a826b1 (ntdll) RtlUserThreadStart
+
+unity-script: IronSource.Agent.validateIntegration
+0x00007ff7861f3a2d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7861f89d9 (Unity) StackWalker::ShowCallstack
+0x00007ff7871c40e1 (Unity) GetStacktrace
+0x00007ff787885b32 (Unity) DebugStringToFile
+0x00007ff785124e76 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000024ffe34fac3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000024ffe34f9db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000024ffe34f720 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000024ffe34f5e8 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000024ffe3868f3 (Mono JIT Code) IronSourceDemoScript:Start () (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/DemoScene/IronSourceDemoScript.cs:27)
+0x0000025021ab9328 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7860df48b (Unity) MonoBehaviour::InvokeMethodOrCoroutineChecked
+0x00007ff7860df596 (Unity) MonoBehaviour::InvokeMethodOrCoroutineChecked
+0x00007ff7860d96b2 (Unity) MonoBehaviour::DelayedStartCall
+0x00007ff785b7ab14 (Unity) DelayedCallManager::Update
+0x00007ff785da9c59 (Unity) `InitPlayerLoopCallbacks'::`2'::EarlyUpdateScriptRunDelayedStartupFrameRegistrator::Forward
+0x00007ff785d89bba (Unity) ExecutePlayerLoop
+0x00007ff785d89d46 (Unity) ExecutePlayerLoop
+0x00007ff785d90605 (Unity) PlayerLoop
+0x00007ff786d4c58f (Unity) PlayerLoopController::InternalUpdateScene
+0x00007ff786d43d93 (Unity) PlayerLoopController::EnterPlayMode
+0x00007ff786d540d6 (Unity) PlayerLoopController::SetIsPlaying
+0x00007ff786d57760 (Unity) Application::TickTimer
+0x00007ff7871ca7ba (Unity) MainMessageLoop
+0x00007ff7871cf8c0 (Unity) WinMain
+0x00007ff7885b42fe (Unity) __scrt_common_main_seh
+0x00007ffa659a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffa66a826b1 (ntdll) RtlUserThreadStart
+
+unity-script: unity version2022.3.4f1
+0x00007ff7861f3a2d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7861f89d9 (Unity) StackWalker::ShowCallstack
+0x00007ff7871c40e1 (Unity) GetStacktrace
+0x00007ff787885b32 (Unity) DebugStringToFile
+0x00007ff785124e76 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000024ffe34fac3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000024ffe34f9db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000024ffe34f720 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000024ffe34f5e8 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000024ffe38695b (Mono JIT Code) IronSourceDemoScript:Start () (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/DemoScene/IronSourceDemoScript.cs:32)
+0x0000025021ab9328 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7860df48b (Unity) MonoBehaviour::InvokeMethodOrCoroutineChecked
+0x00007ff7860df596 (Unity) MonoBehaviour::InvokeMethodOrCoroutineChecked
+0x00007ff7860d96b2 (Unity) MonoBehaviour::DelayedStartCall
+0x00007ff785b7ab14 (Unity) DelayedCallManager::Update
+0x00007ff785da9c59 (Unity) `InitPlayerLoopCallbacks'::`2'::EarlyUpdateScriptRunDelayedStartupFrameRegistrator::Forward
+0x00007ff785d89bba (Unity) ExecutePlayerLoop
+0x00007ff785d89d46 (Unity) ExecutePlayerLoop
+0x00007ff785d90605 (Unity) PlayerLoop
+0x00007ff786d4c58f (Unity) PlayerLoopController::InternalUpdateScene
+0x00007ff786d43d93 (Unity) PlayerLoopController::EnterPlayMode
+0x00007ff786d540d6 (Unity) PlayerLoopController::SetIsPlaying
+0x00007ff786d57760 (Unity) Application::TickTimer
+0x00007ff7871ca7ba (Unity) MainMessageLoop
+0x00007ff7871cf8c0 (Unity) WinMain
+0x00007ff7885b42fe (Unity) __scrt_common_main_seh
+0x00007ffa659a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffa66a826b1 (ntdll) RtlUserThreadStart
+
+unity-script: IronSource.Agent.init
+0x00007ff7861f3a2d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7861f89d9 (Unity) StackWalker::ShowCallstack
+0x00007ff7871c40e1 (Unity) GetStacktrace
+0x00007ff787885b32 (Unity) DebugStringToFile
+0x00007ff785124e76 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000024ffe34fac3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000024ffe34f9db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000024ffe34f720 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000024ffe34f5e8 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000024ffe386973 (Mono JIT Code) IronSourceDemoScript:Start () (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/DemoScene/IronSourceDemoScript.cs:33)
+0x0000025021ab9328 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7860df48b (Unity) MonoBehaviour::InvokeMethodOrCoroutineChecked
+0x00007ff7860df596 (Unity) MonoBehaviour::InvokeMethodOrCoroutineChecked
+0x00007ff7860d96b2 (Unity) MonoBehaviour::DelayedStartCall
+0x00007ff785b7ab14 (Unity) DelayedCallManager::Update
+0x00007ff785da9c59 (Unity) `InitPlayerLoopCallbacks'::`2'::EarlyUpdateScriptRunDelayedStartupFrameRegistrator::Forward
+0x00007ff785d89bba (Unity) ExecutePlayerLoop
+0x00007ff785d89d46 (Unity) ExecutePlayerLoop
+0x00007ff785d90605 (Unity) PlayerLoop
+0x00007ff786d4c58f (Unity) PlayerLoopController::InternalUpdateScene
+0x00007ff786d43d93 (Unity) PlayerLoopController::EnterPlayMode
+0x00007ff786d540d6 (Unity) PlayerLoopController::SetIsPlaying
+0x00007ff786d57760 (Unity) Application::TickTimer
+0x00007ff7871ca7ba (Unity) MainMessageLoop
+0x00007ff7871cf8c0 (Unity) WinMain
+0x00007ff7885b42fe (Unity) __scrt_common_main_seh
+0x00007ffa659a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffa66a826b1 (ntdll) RtlUserThreadStart
+
+unity-script: ShowRewardedVideoButtonClicked
+0x00007ff7861f3a2d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7861f89d9 (Unity) StackWalker::ShowCallstack
+0x00007ff7871c40e1 (Unity) GetStacktrace
+0x00007ff787885b32 (Unity) DebugStringToFile
+0x00007ff785124e76 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000024ffe34fac3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000024ffe34f9db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000024ffe34f720 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000024ffe34f5e8 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000024ffe50766b (Mono JIT Code) IronSourceDemoScript:OnGUI () (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/DemoScene/IronSourceDemoScript.cs:152)
+0x0000025021ab9328 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7867709ba (Unity) MonoBehaviourDoGUI
+0x00007ff786772720 (Unity) IMGUIModule::MonoBehaviourDoGUI
+0x00007ff7860d9b73 (Unity) MonoBehaviour::DoGUI
+0x00007ff78676abf1 (Unity) GUIManager::DoGUIEvent
+0x00007ff78677161e (Unity) GUIManager::SendQueuedEvents
+0x00007ff78676d824 (Unity) `GUIManager::InitGUIManager'::`2'::PreUpdateIMGUISendQueuedEventsRegistrator::Forward
+0x00007ff785d89bba (Unity) ExecutePlayerLoop
+0x00007ff785d89d46 (Unity) ExecutePlayerLoop
+0x00007ff785d90605 (Unity) PlayerLoop
+0x00007ff786d4c58f (Unity) PlayerLoopController::InternalUpdateScene
+0x00007ff786d5916d (Unity) PlayerLoopController::UpdateSceneIfNeededFromMainLoop
+0x00007ff786d57471 (Unity) Application::TickTimer
+0x00007ff7871ca7ba (Unity) MainMessageLoop
+0x00007ff7871cf8c0 (Unity) WinMain
+0x00007ff7885b42fe (Unity) __scrt_common_main_seh
+0x00007ffa659a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffa66a826b1 (ntdll) RtlUserThreadStart
+
+unity-script: IronSource.Agent.isRewardedVideoAvailable - False
+0x00007ff7861f3a2d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7861f89d9 (Unity) StackWalker::ShowCallstack
+0x00007ff7871c40e1 (Unity) GetStacktrace
+0x00007ff787885b32 (Unity) DebugStringToFile
+0x00007ff785124e76 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x0000024ffe34fac3 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x0000024ffe34f9db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x0000024ffe34f720 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x0000024ffe34f5e8 (Mono JIT Code) UnityEngine.Debug:Log (object)
+0x0000024ffe5076e3 (Mono JIT Code) IronSourceDemoScript:OnGUI () (at D:/Documents/Unity Storage/TestingIronSourceDemoAds/Assets/IronSource/DemoScene/IronSourceDemoScript.cs:164)
+0x0000025021ab9328 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9ca51e0e4 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9ca45eb84 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff9ca45ed1c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff786112534 (Unity) scripting_method_invoke
+0x00007ff7860f11b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff7867709ba (Unity) MonoBehaviourDoGUI
+0x00007ff786772720 (Unity) IMGUIModule::MonoBehaviourDoGUI
+0x00007ff7860d9b73 (Unity) MonoBehaviour::DoGUI
+0x00007ff78676abf1 (Unity) GUIManager::DoGUIEvent
+0x00007ff78677161e (Unity) GUIManager::SendQueuedEvents
+0x00007ff78676d824 (Unity) `GUIManager::InitGUIManager'::`2'::PreUpdateIMGUISendQueuedEventsRegistrator::Forward
+0x00007ff785d89bba (Unity) ExecutePlayerLoop
+0x00007ff785d89d46 (Unity) ExecutePlayerLoop
+0x00007ff785d90605 (Unity) PlayerLoop
+0x00007ff786d4c58f (Unity) PlayerLoopController::InternalUpdateScene
+0x00007ff786d5916d (Unity) PlayerLoopController::UpdateSceneIfNeededFromMainLoop
+0x00007ff786d57471 (Unity) Application::TickTimer
+0x00007ff7871ca7ba (Unity) MainMessageLoop
+0x00007ff7871cf8c0 (Unity) WinMain
+0x00007ff7885b42fe (Unity) __scrt_common_main_seh
+0x00007ffa659a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffa66a826b1 (ntdll) RtlUserThreadStart
+
